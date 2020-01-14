@@ -70,6 +70,8 @@ export default function Player(props) {
     middleButtonText = 'Pause';
   }
 
+  console.log('trackplayer',TrackPlayer);
+
   return (
     <View style={[styles.card, style]}>
       <Image style={styles.cover} source={{uri: trackArtwork}} />

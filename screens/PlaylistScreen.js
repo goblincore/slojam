@@ -14,6 +14,7 @@ export default function LandingScreen() {
 
   useEffect(() => {
     TrackPlayer.setupPlayer();
+    TrackPlayer.setRate(0.75);
     TrackPlayer.updateOptions({
       stopWithApp: true,
       capabilities: [
@@ -41,6 +42,7 @@ export default function LandingScreen() {
         title: 'Pure (Demo)',
         artist: 'David Chavez',
         artwork: 'https://picsum.photos/200',
+        pitchAlgorithm: TrackPlayer.PITCH_ALGORITHM_LINEAR,
       });
       await TrackPlayer.play();
     } else {
