@@ -5575,10 +5575,10 @@ react-native-safe-area-view@^0.14.1:
   dependencies:
     debounce "^1.2.0"
 
-react-native-track-player@^1.1.8:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/react-native-track-player/-/react-native-track-player-1.1.8.tgz#4827d46a14320c405d19f34593c3f999c2424b0f"
-  integrity sha512-pAGMgEHtnrnHQYI53qxeZ/dNbw5CNiCTMjj6L09CQrWvZ6cJwjOQeyz4/6aOs7HfUDJc3HLntzKwTHYT7ges0g==
+react-native-track-player@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-track-player/-/react-native-track-player-1.2.0.tgz#04fecc7ab29cdb7c8252da0ff1b7cddb01cf184b"
+  integrity sha512-WN0BN1tCNuzR//I8bUDvUjMpNGQxsbxyJ7slo7nMJKU3y555uX6u4RKYZfirMP4qyclHRhmDTzgZU9OAgynRWQ==
 
 react-native@0.61.5:
   version "0.61.5"
