@@ -14,7 +14,7 @@ export default function LandingScreen() {
 
   useEffect(() => {
     TrackPlayer.setupPlayer();
-    TrackPlayer.setRate(0.75);
+    TrackPlayer.setRate(0.6);
     TrackPlayer.updateOptions({
       stopWithApp: true,
       capabilities: [
